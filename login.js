@@ -7,7 +7,10 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
     // In a real application, you should use a secure authentication method
     const users = {
         RaI: 'Ari#120474',
-        ArI: 'Rai#050802'
+        ArI: 'Rai#050802',
+        Maa: 'Tumpa#120474',
+        Baba: 'Soumya#200764',
+        Riju: 'Riju#011294'
     };
 
     if (users[username] && users[username] === password) {
